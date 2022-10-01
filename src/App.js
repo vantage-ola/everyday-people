@@ -1,8 +1,14 @@
+import Home from "./components/Home";
+import { DefaultStyle } from "./DefaultStyle";
+
 function App() {
   return (
-    <div className="App">
-        Everyday People
-    </div>
+    <>
+            <DefaultStyle/>
+            <Home/>
+
+    </>
+
   );
 }
 
