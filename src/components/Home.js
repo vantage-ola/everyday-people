@@ -1,9 +1,14 @@
-import { Footer } from "./Footer";
+import Footer from "./Footer";
+import Title from "./Title";
+import Header from "./Header";
+import People from "./People";
 
 const Home = () =>  {
     return (
         <>
-        Everyday People
+        <Header/>
+        <Title/> 
+        <People/>
         <Footer/>
         </>
     );
