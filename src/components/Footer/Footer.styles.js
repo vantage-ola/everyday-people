@@ -13,4 +13,10 @@ export const Content = styled.a`
     color: #FF931E;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
+    
+    &:hover {
+    opacity: 0.5;
+  }
+
 `
