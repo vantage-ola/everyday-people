@@ -6,6 +6,16 @@ export const Wrapper = styled.footer`
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    bottom: 50px;
+
+    @media (max-width: 730px){
+        grid-column: 2 / span 6;
+        font-size: small;
+
+        padding-top: 60px;
+        bottom: 0px;
+    }
+
 
 `
 export const Content = styled.a`
@@ -17,5 +27,10 @@ export const Content = styled.a`
     &:hover {
     opacity: 0.5;
   }
+
+  @media (max-width: 730px){
+    font-size: small;
+        
+    }
 
 `

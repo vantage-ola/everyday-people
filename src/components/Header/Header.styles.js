@@ -19,10 +19,13 @@ export const Content = styled.div`
 `
 export const EdgeImg = styled.img`
     width: 91.33px;
-    height: 94px;
     left: 27px;
     top: 25px;
     border-radius: 50%;
+
+    @media screen and (max-width: 500px) {
+    width: 50px;
+  }
     
 `
 export const EdgeInfo = styled.a`
@@ -32,6 +35,14 @@ export const EdgeInfo = styled.a`
     position: relative;
     right: 100px;
     bottom: 20px;
+    
+    @media screen and (max-width: 500px) {
+        font-size: 20px;
+        padding-left: 60px;
+        width: 20px;
+        right: 20px;
+        bottom: 10px;
+  }
 `
 export const EdgeLower = styled.a`
 
@@ -40,8 +51,11 @@ export const EdgeLower = styled.a`
     position: relative;
     top: 20px;
     right: 65px;
-    
 
+    @media screen and (max-width: 500px) {
+        font-size: 10px;
+        right: 40px;
+    }
 `
 export const Edge = styled.div`
 

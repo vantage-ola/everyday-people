@@ -9,7 +9,7 @@ const Header = () => {
                 <EdgeImg src={img} />
                 <Edge>
                     <EdgeInfo>3K+<EdgeLower>COLLECTION</EdgeLower></EdgeInfo>
-                    <EdgeInfo>5+<EdgeLower className="five">TEAM MEMBERS</EdgeLower></EdgeInfo>               
+                    <EdgeInfo>5+<EdgeLower>MEMBERS</EdgeLower></EdgeInfo>               
                 </Edge>
             </Content>
         </Wrapper>
