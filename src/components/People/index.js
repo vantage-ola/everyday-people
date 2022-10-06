@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, PeopleImg, PeopleName } from "./People.styles";
+import { Wrapper, PeopleImg, PeopleName, Back } from "./People.styles";
 import img0 from '../../img/image0.jpeg'
 import img1 from '../../img/ruledout.jpg'
 import img3 from '../../img/feyi.jpg'
@@ -9,9 +9,10 @@ import img6 from '../../img/ivan.jpg'
 import img7 from '../../img/tolulope.jpg'
 import img8 from '../../img/image8.jpeg'
 import img10 from '../../img/lala.jpg'
-
+import back from '../../img/image14.png'
 const People = () => {
     return (
+        <>
         <Wrapper>
 
             <PeopleImg src={img1}/>
@@ -51,6 +52,8 @@ const People = () => {
 
 
         </Wrapper>
+            <Back src={back}/>
+        </>
 
     )
 }

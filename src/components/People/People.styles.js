@@ -3,9 +3,18 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
         @media (max-width: 500px){
             max-width: 350px;
+            text-align: center;
+            margin-left: 10px;
 
     }
 
+`
+export const Back = styled.img`
+    height: 500px;
+    top: -100px;
+    left: 1040px;
+    position: fixed;
+    display: block;
 `
 export const PeopleImg = styled.img`
     vertical-align: middle;
