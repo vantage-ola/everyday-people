@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-position: relative;
-    left: 15px;
 
 `
 export const PeopleImg = styled.img`
@@ -65,6 +63,7 @@ export const PeopleImg = styled.img`
             bottom: 0px;
             top: 18px;
             left: 60px;
+
         }
 
 
@@ -77,6 +76,7 @@ export const PeopleImg = styled.img`
         bottom: 0px;
         top: 18px;
         left: 60px;
+        text-align: left;
     }
     }
     &.seven {
@@ -101,6 +101,13 @@ export const PeopleImg = styled.img`
     }
 `
 export const PeopleName = styled.a`
+    &:hover {
+    opacity: 0.5;
+  }
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
     font-weight: 300;
     position: relative;
     right: 83px;
