@@ -1,14 +1,14 @@
 import React from "react";
 import { Wrapper, PeopleImg, PeopleName } from "./People.styles";
 import img0 from '../../img/image0.jpeg'
-import img1 from '../../img/image1.jpeg'
-import img3 from '../../img/image3.jpeg'
+import img1 from '../../img/ruledout.jpg'
+import img3 from '../../img/feyi.jpg'
 import img4 from '../../img/image4.jpeg'
-import img5 from '../../img/image5.jpeg'
-import img6 from '../../img/image6.jpeg'
-import img7 from '../../img/image7.jpeg'
+import img5 from '../../img/ola.jpg'
+import img6 from '../../img/ivan.jpg'
+import img7 from '../../img/tolulope.jpg'
 import img8 from '../../img/image8.jpeg'
-import img10 from '../../img/image9.jpeg'
+import img10 from '../../img/lala.jpg'
 
 const People = () => {
     return (
