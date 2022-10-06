@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+        @media (max-width: 500px){
+            max-width: 350px;
+
+    }
 
 `
 export const PeopleImg = styled.img`
@@ -16,6 +20,8 @@ export const PeopleImg = styled.img`
         width: 40px;
         bottom: 5px;
         left: 40px;
+        display: inline-block;
+
     }
     &.one {
         bottom: 450px;
