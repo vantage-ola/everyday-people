@@ -11,7 +11,8 @@ export const Wrapper = styled.footer`
  
     @media (max-width: 730px){
     font-size: small;
-        
+    top: 3400px;
+
     }
 
 `

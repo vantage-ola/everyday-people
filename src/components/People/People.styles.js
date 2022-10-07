@@ -15,6 +15,9 @@ export const Back = styled.img`
     left: 1070px;
     position: absolute;
     display: block;
+    @media (max-width: 500px){
+    display: none;
+    }
 `
 export const PeopleImg = styled.img`
     vertical-align: middle;

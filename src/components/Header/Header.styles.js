@@ -21,6 +21,10 @@ export const Line = styled.img`
 position: absolute;
 left: 1px;
 bottom: -35px;
+@media screen and (max-width: 500px) {
+left: -30px;
+bottom: -25px;
+}
 
 `
 export const EdgeImg = styled.img`
