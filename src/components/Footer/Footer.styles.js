@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.footer`
-  position: fixed;
-  left: 0;
-  bottom: 0;
+    position: absolute;
+    top: 1351px;
+    left: 0;
+    right: 0;
   width: 100%;
   color: white;
   text-align: center;
  
-  @media (max-width: 730px){
+    @media (max-width: 730px){
     font-size: small;
         
     }
