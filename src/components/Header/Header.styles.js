@@ -17,6 +17,12 @@ export const Content = styled.div`
     padding: 10px 0;
     margin: 0 auto;
 `
+export const Line = styled.img`
+position: absolute;
+left: 1px;
+bottom: -35px;
+
+`
 export const EdgeImg = styled.img`
     width: 91.33px;
     left: 27px;

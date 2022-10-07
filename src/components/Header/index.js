@@ -1,10 +1,11 @@
 import React from "react";
-import { Wrapper, Content, EdgeImg, Edge, EdgeInfo, EdgeLower } from "./Header.styles";
+import { Wrapper, Content, EdgeImg, Edge, EdgeInfo, EdgeLower, Line } from "./Header.styles";
 import img from '../../img/image12.jpeg'
-
+import line_vector from '../../img/design/line_vector_1.png'
 const Header = () => {
     return (
         <Wrapper>
+            <Line src={line_vector}/>
             <Content>
                 <EdgeImg src={img} />
                 <Edge>
