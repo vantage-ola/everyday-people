@@ -27,7 +27,7 @@ export const PeopleImg = styled.img`
     position: relative;
     bottom: 480px;
     left: 730px;
-    border: 5px #FF931E solid;
+    border: 3px #31F7F7 solid;
     &:hover {
     opacity: 0.5;
   }
