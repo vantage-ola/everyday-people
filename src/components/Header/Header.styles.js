@@ -39,7 +39,7 @@ export const EdgeInfo = styled.a`
     font-size: 32px;
     font-weight: bold;
     position: relative;
-    right: 100px;
+    right: 290px;
     bottom: 20px;
     
     @media screen and (max-width: 500px) {
