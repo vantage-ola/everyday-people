@@ -11,9 +11,9 @@ export const Wrapper = styled.div`
 `
 export const Back = styled.img`
     height: 500px;
-    top: -100px;
-    left: 1040px;
-    position: fixed;
+    top: -120px;
+    left: 1070px;
+    position: absolute;
     display: block;
 `
 export const PeopleImg = styled.img`
@@ -24,12 +24,18 @@ export const PeopleImg = styled.img`
     position: relative;
     bottom: 480px;
     left: 730px;
+    border: 5px #FF931E solid;
+    &:hover {
+    opacity: 0.5;
+  }
+
     @media (max-width: 500px){
         height: 40px;
         width: 40px;
         bottom: 5px;
         left: 40px;
         display: inline-block;
+        border: none;
 
     }
     &.one {
